@@ -7,6 +7,10 @@ main {
     width: 100%;
     height: 100%;
     position: fixed;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .plan {
@@ -16,6 +20,7 @@ main {
     border-left: none;
     text-align: right;
     border-radius: 5px;
+    z-index: 0;
 }
 
 .plan a {
