@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Vazir-FD';
+    src: url('../fonts/Vazir.woff');
+}
+
+
+
+body{
+    font-family: 'Vazir-FD';
+}
+
+.main-header{
+    width: 100%;
+    background: #1565c0;
+    padding: 8px 16px;
+}
+
+a{
+    color: white;
+}
