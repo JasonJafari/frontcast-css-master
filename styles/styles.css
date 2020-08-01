@@ -7,8 +7,12 @@ body{
     font-family: 'Vazir-FD';
 }
 
-section {
+#title {
     background: #1565c0;
+}
+
+.products {
+    background: red;
 }
 
 h1 {
