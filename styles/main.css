@@ -55,3 +55,15 @@ body {
 .main-nav__item a:active {
     color: #ffffff;
 }
+
+.main-nav__item--acount a {
+    background: #ecf2fd;
+    color: #1565c0;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--acount a:hover,
+.main-nav__item--acount a:active {
+    color: #1565c0;
+}
