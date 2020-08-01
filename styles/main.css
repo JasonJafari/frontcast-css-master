@@ -7,13 +7,15 @@
     background-position: center;
     background-size: cover; */
 
-    background-color: blue;
+    /* background-color: blue;
     background-image: url('../images/bg-image.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left 10% bottom 20%;
     padding: 10px;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+
+    background: url('../images/bg-image.jpg') center/cover no-repeat fixed;
 }
 
 .section-title {
