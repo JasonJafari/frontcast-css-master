@@ -7,10 +7,8 @@
     src: url("../fonts/Vazir.woff");
 }
 
- 
 body {
     font-family: "Vazir-FD";
-    direction: rtl;
     padding: 0;
     margin: 0;
 }
@@ -72,27 +70,26 @@ body {
     color: #1565c0;
 }
 
-#overview{
+#overview {
     width: 100%;
     height: 600px;
-    background-image: url('../images/bg-image.jpg');
+    background-image: url("../images/bg-image.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-
-.section-title{
+.section-title {
     color: #1565c0;
     text-align: center;
 }
 
-.plan__list{
+.plan__list {
     width: 65%;
     margin: auto;
 }
 
-.plan{
+.plan {
     width: 30%;
     padding: 16px;
     margin: 8px;
@@ -100,9 +97,27 @@ body {
     vertical-align: middle;
     text-align: center;
     color: #424242;
-    box-shadow: 0 0 25px 5px rgba(0,0,0,0.07);
+    box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.07);
+    direction: rtl;
+    border-radius: 3px;
 }
-.plan--highlighted{
+.plan--highlighted {
     background: #e3f2fd;
     color: #1565c0;
+}
+
+.plan__title--highlighted{
+    background: #ffffff;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.plan__features{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.plan__feature{
+    margin: 8px 0;
 }
