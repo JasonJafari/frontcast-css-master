@@ -7,8 +7,12 @@
     src: url("../fonts/Vazir.woff");
 }
 
+ 
 body {
     font-family: "Vazir-FD";
+    direction: rtl;
+    padding: 0;
+    margin: 0;
 }
 
 .main-header {
@@ -75,4 +79,24 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+
+.section-title{
+    color: #1565c0;
+    text-align: center;
+}
+
+.plan__list{
+    width: 65%;
+    margin: auto;
+}
+
+.plan{
+    width: 30%;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
 }
