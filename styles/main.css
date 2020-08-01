@@ -19,11 +19,19 @@ body {
 
 .main-header > div {
     display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__logo{
+    color:#e3f2fd;
+    text-decoration: none;
+    font-size: 22px;
+    vertical-align: middle;
 }
 
 .main-nav {
     display: inline-block;
-    width: calc(100% - 50px);
+    width: calc(100% - 70px);
     text-align: right;
 }
 
