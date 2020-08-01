@@ -25,12 +25,21 @@ main {
     border-radius: 5px;
     background-color: #fff;
 }
+
+.clearfix{
+    clear: both;
+}
+
 #plus {
     background: #bbdefb;
 }
 
 #free {
     background: #e3f2fd;
+    float: right;
+    border-right: none;
+    border-left: 2px solid #1565c0;
+
 }
 
 #premium {
