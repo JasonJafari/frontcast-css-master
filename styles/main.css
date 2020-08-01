@@ -22,8 +22,8 @@ body {
     vertical-align: middle;
 }
 
-.main-header__logo{
-    color:#e3f2fd;
+.main-header__logo {
+    color: #e3f2fd;
     text-decoration: none;
     font-size: 22px;
     vertical-align: middle;
@@ -37,7 +37,7 @@ body {
 
 .main-nav__items {
     margin: 0;
-    padding: 0 ;
+    padding: 0;
     list-style: none;
 }
 
@@ -46,8 +46,23 @@ body {
     margin: 0 16px;
 }
 
-.main-nav__item a{
+.main-nav__item a {
     text-decoration: none;
     color: #bbdefb;
+}
 
+.main-nav__item a::after{
+    content: "(link )"  ;
+    color: #000;
+}
+.main-nav__item a:hover {
+    color: #ffffff;
+}
+.main-nav__item a:active {
+    color: #ffffff;
+}
+
+p::first-letter{
+    font-size: 20ppx;
+    color: red;
 }
