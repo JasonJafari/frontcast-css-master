@@ -12,6 +12,17 @@ body {
     font-family: 'Vazir-FD';
 }
 
+.backdrop {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
 .main-header {
     width: 100%;
     background: #1565c0;
