@@ -3,13 +3,13 @@
 }
 
 @font-face {
-    font-family: 'Vazir-FD';
-    src: url('../fonts/Vazir-FD.woff')
+    font-family: "Vazir-FD";
+    src: url("../fonts/Vazir-FD.woff");
 }
 
 body {
     margin: 0;
-    font-family: 'Vazir-FD';
+    font-family: "Vazir-FD";
 }
 
 .backdrop {
@@ -29,11 +29,9 @@ body {
     padding: 0.5rem 1rem;
     position: fixed;
     z-index: 1;
-}
-
-.main-header > div {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main-header__logo {
@@ -43,20 +41,17 @@ body {
 }
 
 .main-nav {
-    display: inline-block;
-    width: calc(100% - 70px);
-    text-align: right;
-    vertical-align: middle;
+    display: flex;
 }
 
 .main-nav__items {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
 }
 
 .main-nav__item {
-    display: inline-block;
     margin: 0 1rem;
 }
 
@@ -65,8 +60,7 @@ body {
     color: #bbdefb;
 }
 
-
-.main-nav__item a:hover, 
+.main-nav__item a:hover,
 .main-nav__item a:active {
     color: #ffffff;
 }
@@ -92,11 +86,11 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .main-footer__link {
-    display: inline-block;
     margin: 0 1rem;
 }
 
